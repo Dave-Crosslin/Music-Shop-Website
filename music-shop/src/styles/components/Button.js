@@ -5,7 +5,7 @@ import './Button.css';
 class Btn extends Component {
   render() {
     return (
-        <Button className="button" bsStyle="primary">Write!</Button>
+        <Button className="button">Write!</Button>
     );
   }
 }

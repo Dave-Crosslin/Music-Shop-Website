@@ -18,6 +18,13 @@
     color:white;
 }
 
+.btn-group, .btn-group-vertical {
+    margin-top: 7px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 
 
 

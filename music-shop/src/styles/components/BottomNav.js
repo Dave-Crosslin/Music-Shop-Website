@@ -1,20 +1,21 @@
 import React, { Component } from 'react';
 import {Nav} from 'react-bootstrap';
 import {NavItem} from 'react-bootstrap';
+import './BottomNav.css';   
 
 class BottomNav extends Component {
   render() {
     return (
       <div className="bottomNav">
-        <Nav bsStyle="pills" activeKey={1}>
+        <Nav activeKey={1}>
          <NavItem eventKey={1} href="/home">
-          NavItem 1 content
+          Questions or Concerns?
          </NavItem>
          <NavItem eventKey={2} title="Item">
-          NavItem 2 content
+          Meet our Team
          </NavItem>
          <NavItem eventKey={3} disabled>
-          NavItem 3 content
+          Employment opportunities
          </NavItem>
         </Nav>
       </div>
