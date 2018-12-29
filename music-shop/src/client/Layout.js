@@ -6,10 +6,13 @@ import BottomNav from '../styles/components/BottomNav';
 
 import Home from '../styles/pages/Home.js';
 import GridPage from '../styles/pages/GridPage.js';
+import TestPage from '../styles/pages/TestPage';
+
 
 import { BrowserRouter, Route } from "react-router-dom";
 
 class Layout extends Component {
+  
   render() {
     return (
      <BrowserRouter>
@@ -19,7 +22,7 @@ class Layout extends Component {
             <Menu />
         </header>
         <main>
-       <Route exact path="/" component={Home}/>
+       <Route exact path="/" component={TestPage}/>
        <Route path="/grid" component={GridPage}/>
         </main>
         <footer>
